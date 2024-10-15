@@ -1,7 +1,9 @@
 import requests
 from twilio.rest import Client
+import os
 
-API_KEY = "4fa5cc8fd4ada961613650e0cb4d9e7e"
+API_KEY="4fa5cc8fd4ada961613650e0cb4d9e7e"
+
 #Berlin  lat long
 # MY_LAT="52.517427"
 # MY_LONG="13.471720"
@@ -11,7 +13,6 @@ API_KEY = "4fa5cc8fd4ada961613650e0cb4d9e7e"
 #Chennai
 MY_LAT = "13.082680"
 MY_LONG = "80.270721"
-
 
 account_sid = 'AC445920c1f46d9ea11bfde27ae263a670'
 auth_token = '0b6ccc76d3d7cfc43515ec9587fb705d'
